@@ -5,6 +5,7 @@
   margin: 0 8.4rem 3rem 8.4rem;
   background-color: rgba(59, 66, 64, 0.479);
   background-position: center;
+  min-width: fit-content;
   border-radius: 1rem;
 }
 

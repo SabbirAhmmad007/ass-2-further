@@ -35,6 +35,11 @@
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
 }
+  .hotels,
+  .services,
+  .price {
+    height: fit-content;
+  }
 .price-div {
   display: flex;
   flex-direction: column;
