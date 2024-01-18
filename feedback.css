@@ -1,24 +1,29 @@
 .feedback {
   display: flex;
   gap: 4rem;
-  padding: 3rem;
+  padding: 3%;
   margin: 0 8.4rem 3rem 8.4rem;
   background-color: rgba(59, 66, 64, 0.479);
   background-position: center;
   min-width: fit-content;
   border-radius: 1rem;
+  
 }
 
 .feedback-btn {
-  max-width: 29.75rem;
-  min-width: 15rem;
-  height: 3.25rem;
+
+  min-width: 100%;
+  max-height: auto;
+  min-height: fit-content;
   border-radius: 0.5rem;
   padding: 1rem;
+  margin-bottom: 30%;
+
 }
 .feedback-input {
-  max-width: 28.6rem;
-  height: 12rem;
+  max-width: 100%;
+  min-height: 70%;
+  max-height: auto;
   background: rgba(240, 240, 248, 0.842);
   border-radius: 0.5rem;
   text-align: center;

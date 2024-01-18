@@ -3,28 +3,39 @@
 .popular-tour {
   margin: 0 8.4rem 9.1rem 8.4rem;
   display: flex;
-  gap: 53px;
+  gap: 3.5rem;
   justify-content: center;
+  min-width: fit-content;
 }
 .popular-tour-content > h1{
     margin-bottom: 1.5rem;
 }
+.popular-tour-content {
+  max-width: 50%;
+
+  height: auto;
+}
 .popular-tour-content > p{
     margin-top: 1.5rem;
+    
 }
 .popular-tour-content > p,
 ul {
   color: rgba(19, 19, 24, 0.7);
 }
 .popular-tour-content > ul > li {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   margin: 1rem 0 1rem 2rem;
 }
 .popular-button {
-
   border-radius: 1rem;
   padding: 1rem 2.8rem;
   font-weight: 800;
   margin-top: 3rem;
+}
+
+.popular-tour-img > img{
+  width: 100%;
+  height: 100%;
 }
