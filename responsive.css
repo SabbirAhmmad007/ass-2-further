@@ -1,17 +1,23 @@
 @media screen and (max-width: 600px) {
   .nav-bar {
-    display: block;
+    display: none;
   }
 
   /* banner */
-
+  .banner {
+    margin: 0 1.25rem;
+  }
   .banner-input {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 0.5rem;
     background: rgba(255, 255, 255, 0.3);
     margin: 0 1.25rem;
     gap: 1rem;
+    height: inherit;
+    min-width: fit-content;
   }
 
   /* popular tour */
@@ -20,6 +26,11 @@
     margin: 0 1.25rem;
     display: flex;
     flex-direction: column;
+  }
+  .popular-tour-content {
+    max-width: 100%;
+
+    height: auto;
   }
 
   /* choose your destination */
@@ -38,19 +49,28 @@
   }
 
   /* why-choose-us */
+.why-choose-us-content{
+  
+  max-width: 100vw;
+  margin: 0 1.25rem;
+}
+
+
+
   .why-choose-us-content-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 1.4rem;
-    margin: 0 1.25rem;
+
   }
-  .hotels,
+  /* .hotels,
   .services,
   .price {
-    width: 80vw;
-    height: fit-content;
-  }
+    width: 100%;
+  } */
+
   .price-div {
     display: flex;
     flex-direction: column;
@@ -59,11 +79,16 @@
     margin: 0 1.25rem;
     margin-top: 1.4rem;
     max-width: 100vw;
+    width: 95%;
+    
   }
   .choose-div {
-    max-width: 29.8rem;
-    height: 15.5rem;
+    max-width: 100vw;
+    height: auto;
     padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
   }
   /* newsletter */
   .newsletter {
@@ -74,8 +99,11 @@
   }
 
   .newsletter-left {
-    width: 74.9vw;
+    width: 81.5vw;
     height: 70%;
+  }
+  .newsletter-left > input {
+    height: 6.25rem;
   }
   .newsletter-picture > img {
     width: 91vw;

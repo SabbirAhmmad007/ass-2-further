@@ -1,5 +1,10 @@
 /* Why choose us section start */
 
+.why-choose-us-content{
+  
+  max-width: 100vw;
+  margin: 0 8.4rem;
+}
 .why-choose-us-text {
   text-align: center;
   margin-top: 6.25rem;
@@ -15,43 +20,40 @@
   width: 4rem;
   height: 4rem;
 }
-.choose-div {
-  width: 47rem;
-  height: 15.5rem;
+
+.hotels,
+.services,
+.price {
+  border-radius: 1rem;
+  width: 50%;
+  min-height: fit-content;
+  height: auto;
   padding: 2rem;
 }
 
 .hotels {
-  border-radius: 1rem;
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
 }
 .services {
-  border-radius: 1rem;
   border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
 }
 .price {
-  border-radius: 1rem;
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
 }
-  .hotels,
-  .services,
-  .price {
-    height: fit-content;
-  }
 .price-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 8.4rem;
+
   margin-top: 1.4rem;
 }
 .why-choose-us-content-1 {
   display: flex;
   justify-content: center;
   gap: 1.4rem;
-  margin: 0 8.4rem;
+  
 }
